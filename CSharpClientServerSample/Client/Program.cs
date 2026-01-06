@@ -33,4 +33,5 @@ public class WeatherForecastVM
     public int TemperatureC { get; set; }
     public int TemperatureF { get; set; }
     public string? Summary { get; set; }
+    public bool? Enabled { get; set; }
 }

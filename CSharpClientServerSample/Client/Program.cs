@@ -37,3 +37,4 @@ public class WeatherForecastVM
 }
 
 In the Program class, add a new parameter named Input of type string to the WeatherForecastVM class.
+In the WeatherForecastVM class, add a new public property named Input of type string immediately after the Enabled property.

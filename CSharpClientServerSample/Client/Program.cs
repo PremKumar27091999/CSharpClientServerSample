@@ -35,3 +35,5 @@ public class WeatherForecastVM
     public string? Summary { get; set; }
     public bool? Enabled { get; set; }
 }
+
+In the Program class, add a new parameter named Input of type string to the WeatherForecastVM class.

@@ -34,6 +34,7 @@ public class WeatherForecastVM
     public int TemperatureF { get; set; }
     public string? Summary { get; set; }
     public bool? Enabled { get; set; }
+    public bool? dsabled { get; set; }
 }
 
 In the Program class, add a new parameter named Input of type string to the WeatherForecastVM class.
